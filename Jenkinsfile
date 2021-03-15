@@ -1,5 +1,5 @@
 pipeline {
-  agent { label 'slave1' }              
+  agent any        
 stages{
       stage('deploy to S3'){
           steps{
